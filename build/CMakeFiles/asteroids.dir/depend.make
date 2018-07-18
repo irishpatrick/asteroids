@@ -3,6 +3,7 @@
 
 CMakeFiles/asteroids.dir/src/asteroid.cpp.o: ../src/asteroid.cpp
 CMakeFiles/asteroids.dir/src/asteroid.cpp.o: ../src/asteroid.hpp
+CMakeFiles/asteroids.dir/src/asteroid.cpp.o: ../src/util.hpp
 CMakeFiles/asteroids.dir/src/asteroid.cpp.o: /usr/include/cairo/cairo-deprecated.h
 CMakeFiles/asteroids.dir/src/asteroid.cpp.o: /usr/include/cairo/cairo-features.h
 CMakeFiles/asteroids.dir/src/asteroid.cpp.o: /usr/include/cairo/cairo-version.h

@@ -7,6 +7,11 @@
 #include "asteroid.hpp"
 #include "util.hpp"
 
+typedef struct {
+    float x;
+    float y;
+} Star;
+
 class Game {
 public:
     Game();
@@ -21,4 +26,5 @@ public:
 private:
     Ship ship;
     std::vector<Asteroid> asteroids;
+    Star stars[NUM_STARS];
 };

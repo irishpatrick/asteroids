@@ -9,6 +9,8 @@
 /home/patrick/Desktop/repos/asteroids/src/asteroid.cpp
 asteroid.hpp
 /home/patrick/Desktop/repos/asteroids/src/asteroid.hpp
+util.hpp
+/home/patrick/Desktop/repos/asteroids/src/util.hpp
 
 /home/patrick/Desktop/repos/asteroids/src/asteroid.hpp
 cairo.h

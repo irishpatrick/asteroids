@@ -7,7 +7,7 @@ public:
     Asteroid();
     ~Asteroid();
 
-    void reset();
+    void reset(int);
     void update(float);
     void draw(cairo_t*);
 

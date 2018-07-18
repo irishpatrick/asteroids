@@ -15,6 +15,11 @@ Game::~Game() {
 void Game::init() {
     ship.x = SCREEN_WIDTH / 2;
     ship.y = SCREEN_HEIGHT / 2;
+
+    for (int i=0; i<NUM_STARS; i++) {
+        stars[i].x = randint(0, SCREEN_WIDTH);
+        stars[i].y = randint(0, SCREEN_HEIGHT);
+    }
 }
 
 void Game::update(float delta, const uint8_t* keys) {
@@ -58,7 +63,24 @@ void Game::update(float delta, const uint8_t* keys) {
 }
 
 void Game::draw(cairo_t* cr) {
+    for (int i=0; i<NUM_STARS; i++) {
+        Star* s = &stars[i];
+        int color = randint(0, 100);
+        cairo_set_line_width(cr, 1);
+        if (color == 6) {
+            cairo_set_source_rgb(cr, 1, 1, 1);
+        }
+        else {
+            cairo_set_source_rgb(cr, 0.6, 0.6, 0.6);
+        }
+        cairo_set_source_rgb(cr, 0.6, 0.6, 0.6);
+
+        cairo_rectangle(cr, s->x, s->y, 1, 1);
+        cairo_fill(cr);
+    }
+
     ship.draw(cr);
+    
     for (auto& e : asteroids) {
         e.draw(cr);
     }
