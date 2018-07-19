@@ -28,3 +28,7 @@ void clear(cairo_t* cr) {
     cairo_set_source_rgb(cr, 0, 0, 0);
     cairo_paint(cr);
 }
+
+bool checkCollision(std::vector<Point>& a, std::vector<Point>& b) {
+    
+}

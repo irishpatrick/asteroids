@@ -1,3 +1,0 @@
-/home/patrick/Desktop/repos/asteroids/build/CMakeFiles/rebuild_cache.dir
-/home/patrick/Desktop/repos/asteroids/build/CMakeFiles/asteroids.dir
-/home/patrick/Desktop/repos/asteroids/build/CMakeFiles/edit_cache.dir

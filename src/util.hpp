@@ -7,6 +7,7 @@
 #define NUM_ASTEROIDS 100
 
 #include <cairo.h>
+#include <vector>
 
 typedef struct {
     float x;
@@ -20,3 +21,5 @@ float xcoord(float);
 float ycoord(float);
 
 void clear(cairo_t*);
+
+bool checkCollision(std::vector<Point>&, std::vector<Point>&);

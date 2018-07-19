@@ -4,6 +4,7 @@
 #include <iostream>
 
 Asteroid::Asteroid() {
+    point_list = 0;
     reset(0);
 }
 
@@ -12,7 +13,7 @@ Asteroid::~Asteroid() {
 }
 
 void Asteroid::reset(int level) {
-    if (point_list != nullptr) {
+    if (point_list != 0) {
         free(point_list);
     }
     int multiplier = MAX_LEVEL - level;
