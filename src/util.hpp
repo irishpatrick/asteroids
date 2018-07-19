@@ -8,6 +8,11 @@
 
 #include <cairo.h>
 
+typedef struct {
+    float x;
+    float y;
+} Point;
+
 float deg(float);
 float rad(float);
 int randint(int, int);

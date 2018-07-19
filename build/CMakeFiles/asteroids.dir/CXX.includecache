@@ -11,10 +11,16 @@ asteroid.hpp
 /home/patrick/Desktop/repos/asteroids/src/asteroid.hpp
 util.hpp
 /home/patrick/Desktop/repos/asteroids/src/util.hpp
+cmath
+-
+iostream
+-
 
 /home/patrick/Desktop/repos/asteroids/src/asteroid.hpp
 cairo.h
 -
+util.hpp
+/home/patrick/Desktop/repos/asteroids/src/util.hpp
 
 /home/patrick/Desktop/repos/asteroids/src/game.cpp
 game.hpp
@@ -77,18 +83,8 @@ util.hpp
 /home/patrick/Desktop/repos/asteroids/src/missile.hpp
 cairo.h
 -
-
-/home/patrick/Desktop/repos/asteroids/src/old.cpp
 util.hpp
 /home/patrick/Desktop/repos/asteroids/src/util.hpp
-cmath
--
-cstdio
--
-cstring
--
-iostream
--
 
 /home/patrick/Desktop/repos/asteroids/src/ship.cpp
 ship.hpp
@@ -107,6 +103,8 @@ string
 -
 vector
 -
+util.hpp
+/home/patrick/Desktop/repos/asteroids/src/util.hpp
 missile.hpp
 /home/patrick/Desktop/repos/asteroids/src/missile.hpp
 

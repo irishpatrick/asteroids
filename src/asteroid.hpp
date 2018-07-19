@@ -1,6 +1,9 @@
 #pragma once
 
 #include <cairo.h>
+#include "util.hpp"
+
+#define MAX_LEVEL 3
 
 class Asteroid {
 public:
@@ -19,6 +22,7 @@ public:
     float spin;
     int points;
     int breaks;
-    int size;   
-
+    int radius;
+    int size;
+    int* point_list;
 };

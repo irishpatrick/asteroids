@@ -4,6 +4,7 @@
 #include <iostream>
 #include <string>
 #include <vector>
+#include "util.hpp"
 #include "missile.hpp"
 
 #define MAX_MISSILES 100
@@ -22,6 +23,7 @@ public:
     float xvel;
     float yvel;
     float angle;
+    Point* points;
 
 private:
     const int size = 12;

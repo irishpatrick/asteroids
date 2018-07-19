@@ -231,33 +231,6 @@ src/missile.cpp.s:
 	$(MAKE) -f CMakeFiles/asteroids.dir/build.make CMakeFiles/asteroids.dir/src/missile.cpp.s
 .PHONY : src/missile.cpp.s
 
-src/old.o: src/old.cpp.o
-
-.PHONY : src/old.o
-
-# target to build an object file
-src/old.cpp.o:
-	$(MAKE) -f CMakeFiles/asteroids.dir/build.make CMakeFiles/asteroids.dir/src/old.cpp.o
-.PHONY : src/old.cpp.o
-
-src/old.i: src/old.cpp.i
-
-.PHONY : src/old.i
-
-# target to preprocess a source file
-src/old.cpp.i:
-	$(MAKE) -f CMakeFiles/asteroids.dir/build.make CMakeFiles/asteroids.dir/src/old.cpp.i
-.PHONY : src/old.cpp.i
-
-src/old.s: src/old.cpp.s
-
-.PHONY : src/old.s
-
-# target to generate assembly for a file
-src/old.cpp.s:
-	$(MAKE) -f CMakeFiles/asteroids.dir/build.make CMakeFiles/asteroids.dir/src/old.cpp.s
-.PHONY : src/old.cpp.s
-
 src/ship.o: src/ship.cpp.o
 
 .PHONY : src/ship.o
@@ -333,9 +306,6 @@ help:
 	@echo "... src/missile.o"
 	@echo "... src/missile.i"
 	@echo "... src/missile.s"
-	@echo "... src/old.o"
-	@echo "... src/old.i"
-	@echo "... src/old.s"
 	@echo "... src/ship.o"
 	@echo "... src/ship.i"
 	@echo "... src/ship.s"

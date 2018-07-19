@@ -127,13 +127,6 @@ CMakeFiles/asteroids.dir/src/missile.cpp.o: /usr/include/cairo/cairo-features.h
 CMakeFiles/asteroids.dir/src/missile.cpp.o: /usr/include/cairo/cairo-version.h
 CMakeFiles/asteroids.dir/src/missile.cpp.o: /usr/include/cairo/cairo.h
 
-CMakeFiles/asteroids.dir/src/old.cpp.o: ../src/old.cpp
-CMakeFiles/asteroids.dir/src/old.cpp.o: ../src/util.hpp
-CMakeFiles/asteroids.dir/src/old.cpp.o: /usr/include/cairo/cairo-deprecated.h
-CMakeFiles/asteroids.dir/src/old.cpp.o: /usr/include/cairo/cairo-features.h
-CMakeFiles/asteroids.dir/src/old.cpp.o: /usr/include/cairo/cairo-version.h
-CMakeFiles/asteroids.dir/src/old.cpp.o: /usr/include/cairo/cairo.h
-
 CMakeFiles/asteroids.dir/src/ship.cpp.o: ../src/missile.hpp
 CMakeFiles/asteroids.dir/src/ship.cpp.o: ../src/ship.cpp
 CMakeFiles/asteroids.dir/src/ship.cpp.o: ../src/ship.hpp

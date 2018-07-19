@@ -1,6 +1,7 @@
 #pragma once
 
 #include <cairo.h>
+#include "util.hpp"
 
 class Missile {
 public:

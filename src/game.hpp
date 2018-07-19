@@ -27,4 +27,5 @@ private:
     Ship ship;
     std::vector<Asteroid> asteroids;
     Star stars[NUM_STARS];
+    Asteroid test;
 };

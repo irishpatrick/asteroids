@@ -20,6 +20,11 @@ void Game::init() {
         stars[i].x = randint(0, SCREEN_WIDTH);
         stars[i].y = randint(0, SCREEN_HEIGHT);
     }
+
+    test.reset(1);
+    //test.x = 200;
+    //test.y = 200;
+    asteroids.push_back(test);
 }
 
 void Game::update(float delta, const uint8_t* keys) {

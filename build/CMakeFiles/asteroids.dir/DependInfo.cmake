@@ -8,7 +8,6 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/patrick/Desktop/repos/asteroids/src/game.cpp" "/home/patrick/Desktop/repos/asteroids/build/CMakeFiles/asteroids.dir/src/game.cpp.o"
   "/home/patrick/Desktop/repos/asteroids/src/main.cpp" "/home/patrick/Desktop/repos/asteroids/build/CMakeFiles/asteroids.dir/src/main.cpp.o"
   "/home/patrick/Desktop/repos/asteroids/src/missile.cpp" "/home/patrick/Desktop/repos/asteroids/build/CMakeFiles/asteroids.dir/src/missile.cpp.o"
-  "/home/patrick/Desktop/repos/asteroids/src/old.cpp" "/home/patrick/Desktop/repos/asteroids/build/CMakeFiles/asteroids.dir/src/old.cpp.o"
   "/home/patrick/Desktop/repos/asteroids/src/ship.cpp" "/home/patrick/Desktop/repos/asteroids/build/CMakeFiles/asteroids.dir/src/ship.cpp.o"
   "/home/patrick/Desktop/repos/asteroids/src/util.cpp" "/home/patrick/Desktop/repos/asteroids/build/CMakeFiles/asteroids.dir/src/util.cpp.o"
   )
