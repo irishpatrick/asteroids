@@ -12,6 +12,7 @@ Ship::Ship() {
 }
 
 Ship::~Ship() {
+
 }
 
 void Ship::fire() {
